@@ -1,0 +1,74 @@
+.cards-container {
+  display: flex;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.card {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  height: 500px;
+  width: 300px;
+  display: grid;
+
+  gap: 20px;
+  padding: 46px;
+}
+
+.card img {
+  height: 40px;
+}
+
+.card h3 {
+  font-family: "Big Shoulders Display";
+  font-size: 2rem;
+  color: white;
+}
+
+.card p {
+  color: var(--transparent-white);
+  line-height: 24px;
+}
+
+.card button {
+  font-family: "Lexend Deca";
+  padding: 12px 36px;
+  border-radius: 60px;
+  /* margin-inline: auto; */
+  height: fit-content;
+  width: fit-content;
+  background-color: white;
+  border: 2px solid white;
+  align-self: self-end;
+}
+
+.card button:hover {
+  color: white;
+  background-color: transparent;
+}
+
+/** Selecting individual cards: */
+
+.card-sedan {
+  background-color: var(--bright-orange);
+}
+
+.card-suv {
+  background-color: var(--dark-cyan);
+}
+
+.card-luxery {
+  background-color: var(--very-dark-cyan);
+}
+
+.card-sedan button {
+  color: var(--bright-orange);
+}
+
+.card-suv button {
+  color: var(--dark-cyan);
+}
+
+.card-luxery button {
+  color: var(--very-dark-cyan);
+}
